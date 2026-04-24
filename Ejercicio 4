@@ -1,5 +1,5 @@
 // Primer ejercicio de matrices de la clase 
-#include stdio.h
+#include <stdio.h>
 void main ()
 {
     int matriz1[2][2] = {{1,1},{1,1}};
@@ -25,4 +25,3 @@ void main ()
         }
      printf("\n");
     }
-}
