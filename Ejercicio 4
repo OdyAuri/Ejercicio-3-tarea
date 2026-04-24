@@ -1,0 +1,28 @@
+// Primer ejercicio de matrices de la clase 
+#include stdio.h
+void main ()
+{
+    int matriz1[2][2] = {{1,1},{1,1}};
+    int i, j;
+    printf("Imprimir Matriz uno\n");
+    for (i=0 ; i<2 ; i++)
+    {
+        for (j=0 ; j<2 ; j++)
+        {
+            printf("%d, ",matriz1[i][j]); 
+        }
+     printf("\n");
+    }
+		
+		int matriz2[2][2] = {{0,1},{1,0}};
+    int a, b;
+    printf("Imprimir Matriz uno\n");
+    for (a=0 ; a<2 ; a++)
+    {
+        for (b=0 ; b<2 ; b++)
+        {
+            printf("%d, ",matriz2[a][b]); 
+        }
+     printf("\n");
+    }
+}
