@@ -25,11 +25,20 @@ int main ()
     for (indice = 0 ; indice <= numeroElementos-1 ; indice++)
     {
             printf("%d  ", lista[indice] );
-    }
+		}
+		
     }
     else 
     printf("el valor dado no es válido"); 
     printf("\n");
+			   printf("\nLos valores dados son: \n");
+    for (indice = 0 ; indice <= numeroElementos-1 ; indice++)
+    {
+            printf("%d  ", lista[indice] );
+
+
+
+
 return 0;
 }
 
