@@ -1,1 +1,6 @@
+*/Escriba un programa que lea los valores de todos los elementos de los vectores
+ de enteros introducidos por el usuario, copie esos dos vectores en un tercero (uno
+a contunuación del otro) y muestre sus valores por pantalla. los tamaños de los dos
+vectores deben declararse com constante/*
 
+ 
